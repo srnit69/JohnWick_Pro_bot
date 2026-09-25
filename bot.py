@@ -1,21 +1,20 @@
 import time
 import google.genai as genai
 import telebot
-import os
+import os  
 
-# قراءة التوكنات من متغيرات البيئة (Secrets في GitHub Actions)
 TELEGRAM_TOKEN ="8904114683:AAENUy809C8G6DwP6voN5dGjlBbeL-ceuQ4"
 
 GEMINI_API_KEY = "AIzaSyD-GD61c2qUVracTj_T_2yhxYuXM4tsPgQ"
 
-# التحقق من وجود التوكنات
+
 if not TELEGRAM_TOKEN or not GEMINI_API_KEY:
     raise ValueError("❌ التوكنات غير موجودة! تأكد من وضعها داخل Secrets في GitHub.")
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 client = genai.Client(api_key=GEMINI_API_KEY)
 
-# تفريغ أي جلسة سابقة لتجنب خطأ 409
+
 try:
     bot.remove_webhook()
     time.sleep(1)
