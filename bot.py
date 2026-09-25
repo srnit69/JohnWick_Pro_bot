@@ -4,7 +4,7 @@ import telebot
 import os
 
 # قراءة التوكنات من متغيرات البيئة (Secrets في GitHub Actions)
-TELEGRAM_TOKEN ="8904114683:AAGEd4gbaaZ_qEnyn-crlnO2-ju_BSAfGh0"
+TELEGRAM_TOKEN ="8904114683:AAHY9THsN5DJaI-f2tsEsPIoueWPIB4wqAI"
 
 TELEGRAM_TOKEN ="8904114683:AAGEd4gbaaZ_qEnyn-crlnO2-ju_BSAfG"
 
