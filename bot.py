@@ -6,8 +6,6 @@ import os
 # قراءة التوكنات من متغيرات البيئة (Secrets في GitHub Actions)
 TELEGRAM_TOKEN ="8904114683:AAHY9THsN5DJaI-f2tsEsPIoueWPIB4wqAI"
 
-TELEGRAM_TOKEN ="8904114683:AAHY9THsN5DJaI-f2tsEsPIoueWPIB4wqAI"
-
 GEMINI_API_KEY = "AIzaSyD-GD61c2qUVracTj_T_2yhxYuXM4tsPgQ"
 
 # التحقق من وجود التوكنات
