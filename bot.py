@@ -4,8 +4,8 @@ import telebot
 import os
 
 # قراءة التوكنات من متغيرات البيئة (Secrets في GitHub Actions)
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+TELEGRAM_TOKEN ="8904114683:AAGEd4gbaaZ_qEnyn-crlnO2-ju_BSAfGh0"
+GEMINI_API_KEY = "AIzaSyD-GD61c2qUVracTj_T_2yhxYuXM4tsPgQ"
 
 # التحقق من وجود التوكنات
 if not TELEGRAM_TOKEN or not GEMINI_API_KEY:
